@@ -1,6 +1,6 @@
 # Variation_Human_Rationales
 
-#Abstract
+## Abstract
 
 Human disagreement is ubiquitous and well-known in labeling. However, variation in explanations, captured through token-level human rationales, remains far less explored.
 At the same time, it is unclear how to best evaluate human labels and rationales--or even how to best aggregate rationales beyond majority vote---in light of this variation. Yet, rationales may provide additional insights into the richness of human reasoning, that may differ in style, values and interpretations---it can be especially useful to understand such variation in subjective NLP tasks like hate speech detection. In this work, we first survey traditional evaluation metrics for both classification and explainability, and organize them within a unified framework. We identify two key properties for classification—predictive and distributional—and three for explainability: plausibility, faithfulness and complexity. We empirically assess the sensitivity and correlation of these metrics by experimenting with different label (\textsc{hard} and \textsc{soft}) and rationales representations (\textsc{intermediate} and \textsc{soft}) using a supervised attention alignment mechanism in transformer-based classifiers. Our results show that both label and explanation spaces affect classification and explainability evaluation, highlighting the limitations of hard metrics on soft representations and the need for softer evaluation.
